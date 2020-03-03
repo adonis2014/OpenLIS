@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="c72a7d96-4d78-44c3-bc44-4de7ca98c533" patientName="Ms EUNICE SAFORO" patientId="B9-026171" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="9f3d6487-f27b-433d-9e54-c73e8d04b69e" specimenId="0009800" testName="High vaginal swab">
+            <elements>
+                <element name="Ampicillin" conceptCode="1690069507831127786"/>
+                <element name="Co-trimoxazole" conceptCode="4052987086816288153"/>
+                <element name="Cephalexin (substance)" conceptCode="5872180479535840656"/>
+                <element name="Tetracycline" conceptCode="3310206503480318439"/>
+                <element name="Ciprofloxacin" conceptCode="9061679561974650455"/>
+                <element name="Ofloxacin" conceptCode="1574108454021613811"/>
+                <element name="Cloxacillin" conceptCode="3806682637183984092"/>
+                <element name="Roxithromycin" conceptCode="6465465348223704474"/>
+                <element name="Lincomycin" conceptCode="2719977994611588981"/>
+                <element name="Gentamycin sensitivity" conceptCode="8330273960603505645"/>
+                <element name="Piperacillin" conceptCode="1554078747086162947"/>
+                <element name="Chloramphenicol" conceptCode="9030239441777601899"/>
+                <element name="Levofloxacin" conceptCode="8748251330667450620"/>
+                <element name="Amikacin" conceptCode="4990014606132824658"/>
+                <element name="Ceftriaxone" conceptCode="3623740734624203729"/>
+                <element name="Cefotaxime" conceptCode="1556434221249124092"/>
+                <element name="Norfloxacin" conceptCode="7035044927360543338"/>
+                <element name="Nalidixic acid" conceptCode="7581028761993933399"/>
+                <element name="Ceftazidime" conceptCode="7869464223933049512"/>
+                <element name="Sample: organism isolated" conceptCode="7411650856612851099"/>
+                <element name="Augmentin" conceptCode="3647164013211918394"/>
+                <element name="Nitrofurantoin" conceptCode="1208971277364280773"/>
+                <element name="Meropenem" conceptCode="6468046108376657221"/>
+                <element name="Gram Staining" conceptCode="8475669181738364037"/>
+                <element name="Comment" conceptCode="7476738773821143552"/>
+                <element name="Sparfloxacin" conceptCode="96090000"/>
+                <element name="Cefuroxime" conceptCode="73986003"/>
+                <element name="Piperamidic Acid" conceptCode="1378736048240876287"/>
+                <element name="Perfloxacin" conceptCode="634249796300627613"/>
+                <element name="Penicillin G" conceptCode="78507004"/>
+                <element name="Culture" conceptCode="252398009"/>
+                <element name="Yeast-like Cells" conceptCode="5430913380551672031"/>
+                <element name="Trichomonas vaginalis" conceptCode="122292006"/>
+                <element name="RBCs per HPF" conceptCode="5489301331112363077"/>
+                <element name="Epithelial Cells per HPF" conceptCode="6599017611713737192"/>
+                <element name="Pus Cells per HPF" conceptCode="6512236970591730842"/>
+            </elements>
+        </test>
+        <test testId="56e38401-063e-4f72-93fd-288107daa7f8" specimenId="0009800" testName="Sickling test">
+            <elements>
+                <element name="Sickling test" conceptCode="252289009"/>
+            </elements>
+        </test>
+        <test testId="71d9ab58-8f81-44ac-a122-1f2f1ed4c9f5" specimenId="0009800" testName="FBC">
+            <elements>
+                <element name="Platelet count" conceptCode="3657367828941320264"/>
+                <element name="Neutrophil (Absolute) count" conceptCode="5495004948923522034"/>
+                <element name="Hematocrit" conceptCode="3627252385247844320"/>
+                <element name="Lymphocyte (%)" conceptCode="8218054551654045340"/>
+                <element name="Reticulocyte (%)" conceptCode="2280782167877882116"/>
+                <element name="Eosinophil (%)" conceptCode="63205137318021725"/>
+                <element name="Neutrophil (%)" conceptCode="7462397194045963934"/>
+                <element name="White Cells Count ( Absolute)" conceptCode="3753852184455721924"/>
+                <element name="MCHC" conceptCode="3813089087225500483"/>
+                <element name="MCV" conceptCode="1076804073850754254"/>
+                <element name="MCH" conceptCode="8581524153569018455"/>
+                <element name="Monocyte (%)" conceptCode="5229826945283232462"/>
+                <element name="Hemoglobin" conceptCode="6184945525117716018"/>
+                <element name="Mixed Absolute Count (Eosinophils, Monocytes and Basophils)" conceptCode="6809769500834862309"/>
+                <element name="Mixed Count (Eosinophils, Monocytes and Basophils)" conceptCode="6040958154949402994"/>
+                <element name="Red Blood Cells" conceptCode="6076684193318446612"/>
+                <element name="Basophil (%)" conceptCode="6406657762988918868"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

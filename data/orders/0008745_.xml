@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="b70c8490-d45f-4a99-8dfa-f898a0b388af" patientName="WOII ERNEST SAKYI" patientId="C6-006404" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="78f52f8c-d628-4c81-9e05-82058333c58b" specimenId="0008745" testName="Hepatitis B surface antigen measurement">
+            <elements>
+                <element name="Hepatitis B virus surface antigen" conceptCode="4366920645505500847"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

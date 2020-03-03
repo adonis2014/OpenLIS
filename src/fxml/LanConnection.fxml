@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.queauji.hims.hl7.main.controllers.IPConnectionController">
+  <children>
+    <GridPane layoutX="25.0" layoutY="27.0" prefHeight="110.0" prefWidth="305.0000999999975">
+      <children>
+        <Label text="IP Address" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Label text="Port" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <TextField fx:id="ipTextField" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <TextField fx:id="portTextField" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Button fx:id="connectButton" mnemonicParsing="false" text="Connect" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="151.0" minWidth="10.0" prefWidth="121.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="189.0" minWidth="10.0" prefWidth="184.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="31.0" minHeight="10.0" prefHeight="31.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="56.0" minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="58.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+</AnchorPane>

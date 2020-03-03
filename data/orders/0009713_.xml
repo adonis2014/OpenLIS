@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="3b34b5a3-aee2-465a-959f-eaaf1583096a" patientName="Ms LYDIA AKROFI" patientId="C4-016651" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="599e21ae-6a5a-4038-a3f2-01e992802d75" specimenId="0009713" testName="FBC">
+            <elements>
+                <element name="Platelet count" conceptCode="3657367828941320264"/>
+                <element name="Neutrophil (Absolute) count" conceptCode="5495004948923522034"/>
+                <element name="Hematocrit" conceptCode="3627252385247844320"/>
+                <element name="Lymphocyte (%)" conceptCode="8218054551654045340"/>
+                <element name="Reticulocyte (%)" conceptCode="2280782167877882116"/>
+                <element name="Eosinophil (%)" conceptCode="63205137318021725"/>
+                <element name="Neutrophil (%)" conceptCode="7462397194045963934"/>
+                <element name="White Cells Count ( Absolute)" conceptCode="3753852184455721924"/>
+                <element name="MCHC" conceptCode="3813089087225500483"/>
+                <element name="MCV" conceptCode="1076804073850754254"/>
+                <element name="MCH" conceptCode="8581524153569018455"/>
+                <element name="Monocyte (%)" conceptCode="5229826945283232462"/>
+                <element name="Hemoglobin" conceptCode="6184945525117716018"/>
+                <element name="Mixed Absolute Count (Eosinophils, Monocytes and Basophils)" conceptCode="6809769500834862309"/>
+                <element name="Mixed Count (Eosinophils, Monocytes and Basophils)" conceptCode="6040958154949402994"/>
+                <element name="Red Blood Cells" conceptCode="6076684193318446612"/>
+                <element name="Basophil (%)" conceptCode="6406657762988918868"/>
+            </elements>
+        </test>
+        <test testId="68bfa2ee-b907-43dc-b224-dbd4a1073e18" specimenId="0009713" testName="Fasting blood glucose measurement">
+            <elements>
+                <element name="Fasting blood glucose" conceptCode="4372702262623210493" analyteCode="300"/>
+            </elements>
+        </test>
+        <test testId="a1d7858f-d80e-4438-9367-3be47a2caaaf" specimenId="0009713" testName="2-hr post-prandial glucose level">
+            <elements>
+                <element name="Fasting blood glucose" conceptCode="1874506432902776036" analyteCode="300"/>
+                <element name="2-Hour Post Prandial" conceptCode="1271441680650563420"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

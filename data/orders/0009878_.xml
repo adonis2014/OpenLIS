@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="8c4f13cd-f4e5-40ca-82b5-dae3d53c5ad7" patientName="Madam ROSE DZAKAGO" patientId="C4-023438" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="10976da5-fb2a-4834-8eb7-2207071e6c8c" specimenId="0009878" testName="Albumin">
+            <elements>
+                <element name="Albumin measurement" conceptCode="3665946137940023633" analyteCode="303"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

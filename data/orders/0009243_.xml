@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="4dd168c4-bd42-48e0-8ff5-8037957f577d" patientName="Ms HAWA ABDULAI" patientId="C6-006774" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="0c73f504-b39d-45f3-86da-0736cdee38e7" specimenId="0009243" testName="FBC">
+            <elements>
+                <element name="Platelet count" conceptCode="3657367828941320264"/>
+                <element name="Neutrophil (Absolute) count" conceptCode="5495004948923522034"/>
+                <element name="Hematocrit" conceptCode="3627252385247844320"/>
+                <element name="Lymphocyte (%)" conceptCode="8218054551654045340"/>
+                <element name="Reticulocyte (%)" conceptCode="2280782167877882116"/>
+                <element name="Eosinophil (%)" conceptCode="63205137318021725"/>
+                <element name="Neutrophil (%)" conceptCode="7462397194045963934"/>
+                <element name="White Cells Count ( Absolute)" conceptCode="3753852184455721924"/>
+                <element name="MCHC" conceptCode="3813089087225500483"/>
+                <element name="MCV" conceptCode="1076804073850754254"/>
+                <element name="MCH" conceptCode="8581524153569018455"/>
+                <element name="Monocyte (%)" conceptCode="5229826945283232462"/>
+                <element name="Hemoglobin" conceptCode="6184945525117716018"/>
+                <element name="Mixed Absolute Count (Eosinophils, Monocytes and Basophils)" conceptCode="6809769500834862309" analyteCode="303"/>
+                <element name="Mixed Count (Eosinophils, Monocytes and Basophils)" conceptCode="6040958154949402994" analyteCode="303"/>
+                <element name="Red Blood Cells" conceptCode="6076684193318446612"/>
+                <element name="Basophil (%)" conceptCode="6406657762988918868"/>
+            </elements>
+        </test>
+        <test testId="fbc660c3-0c02-4282-a091-031193682744" specimenId="0009243" testName="BUE &amp; Creatinine">
+            <elements>
+                <element name="Sodium measurement" conceptCode="5921900852653530338" analyteCode="309"/>
+                <element name="Serum chloride" conceptCode="5899384728285507757" analyteCode="307"/>
+                <element name="Urea measurement" conceptCode="7940515363109965334" analyteCode="315"/>
+                <element name="Phosphorus" conceptCode="8548959762324618148" analyteCode="311"/>
+                <element name="Calcium measurement" conceptCode="4145211814421082629" analyteCode="318"/>
+                <element name="Plasma bicarbonate" conceptCode="6950505464937324708" analyteCode="310"/>
+                <element name="Creatinine" conceptCode="663421999298289948" analyteCode="314"/>
+                <element name="Potassium (Serum)" conceptCode="8668246409892450924" analyteCode="303"/>
+                <element name="Urea/Creatine Ratio" conceptCode="2968447501570211024" analyteCode="900"/>
+                <element name="Anion Gap" conceptCode="6167582931207998250" analyteCode="902"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

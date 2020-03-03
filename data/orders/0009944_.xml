@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="680bdc6a-5ff4-4306-ac2d-7ce9b15c448f" patientName="Mrs CHRISTIANA KUGBENORVI" patientId="B6-001066" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="5d8d96ce-0ebb-4872-8cf4-4796058e5db1" specimenId="0009944" testName="2-hr post-prandial glucose level">
+            <elements>
+                <element name="Fasting blood glucose" conceptCode="1874506432902776036" analyteCode="300"/>
+                <element name="2-Hour Post Prandial" conceptCode="1271441680650563420"/>
+            </elements>
+        </test>
+        <test testId="bcc9b96e-31bb-4644-ae7d-47d809958679" specimenId="0009944" testName="Glycosylated hemoglobin">
+            <elements>
+                <element name="Glycosylated hemoglobin A (IFCC)" conceptCode="6917426914143284995"/>
+                <element name="Total glycosylated hemoglobin (DCCT)" conceptCode="1212817167185388658"/>
+                <element name="DCCT Comment" conceptCode="7316100470273830661"/>
+                <element name="IFCC Comments" conceptCode="536432226075149571"/>
+                <element name="Estimated Average Glucose" conceptCode="4320548476181208166"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

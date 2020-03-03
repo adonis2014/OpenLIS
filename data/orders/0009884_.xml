@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="cb353ce9-7f91-45ab-a9a0-ad6b6046d2d3" patientName="Sgt. HENRY KURANCHIE" patientId="B4-000372" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="b1ce4161-62bb-49c7-b08c-bf3b26a231e2" specimenId="0009884" testName="VDRL">
+            <elements>
+                <element name="VRDL" conceptCode="3167703704125377731"/>
+                <element name="VRDL" conceptCode="3167703704125377731"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

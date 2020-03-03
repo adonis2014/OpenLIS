@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.queauji.hims.hl7.main.controllers.SerialConnectionController">
+  <children>
+    <ListView fx:id="listView" layoutX="205.0" layoutY="14.0" prefHeight="200.0" prefWidth="275.0" />
+    <Label layoutX="39.0" layoutY="14.0" prefWidth="166.0" text="Available Serial Ports" />
+    <Button fx:id="connectButton" layoutX="406.0" layoutY="224.0" mnemonicParsing="false" text="Connect" />
+  </children>
+</AnchorPane>

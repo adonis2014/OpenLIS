@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="909248ea-5f0e-4469-aeb9-91864a012aec" patientName="Mr DANIEL MENSAH NAI" patientId="C4-022634" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="0ce0f5c9-3e99-4ed0-a250-2740897aa53d" specimenId="0009626" testName="VDRL">
+            <elements>
+                <element name="VRDL" conceptCode="3167703704125377731"/>
+                <element name="VRDL" conceptCode="3167703704125377731"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

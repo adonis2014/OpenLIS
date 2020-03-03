@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="ddb4cdbf-601a-46a1-9c04-18af1dbd0998" patientName="Mr EDWARD AFODANYI" patientId="C4-030353" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="3a9bb548-c4d4-43a1-95d4-a3abb2ad81d7" specimenId="0009930" testName="Glycosylated hemoglobin">
+            <elements>
+                <element name="Glycosylated hemoglobin A (IFCC)" conceptCode="6917426914143284995"/>
+                <element name="Total glycosylated hemoglobin (DCCT)" conceptCode="1212817167185388658"/>
+                <element name="DCCT Comment" conceptCode="7316100470273830661"/>
+                <element name="IFCC Comments" conceptCode="536432226075149571"/>
+                <element name="Estimated Average Glucose" conceptCode="4320548476181208166"/>
+            </elements>
+        </test>
+        <test testId="3c5c4090-b631-41bf-8250-539328816927" specimenId="0009930" testName="Lipid Profile">
+            <elements>
+                <element name="Total cholesterol" conceptCode="7655968521738328212" analyteCode="305"/>
+                <element name="Plasma HDL cholesterol level" conceptCode="952898762303083071" analyteCode="356"/>
+                <element name="Serum LDL cholesterol level" conceptCode="7528475154054724204" analyteCode="916"/>
+                <element name="Serum triglycerides" conceptCode="5798410968183305265" analyteCode="304"/>
+                <element name="VLDL" conceptCode="4333331952803522593" analyteCode="912"/>
+                <element name="Coronary heart disease risk" conceptCode="142613002"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="61769b67-a481-4b1f-b4d0-d62b45701ee2" patientName="Madam KUBURA MUTARI" patientId="C5-038539" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="baac2152-511f-4a0b-b9cb-f0ac9b2568d9" specimenId="0009965" testName="Urine  culture and sensitivity">
+            <elements>
+                <element name="Ampicillin" conceptCode="1690069507831127786"/>
+                <element name="Co-trimoxazole" conceptCode="4052987086816288153"/>
+                <element name="Cephalexin (substance)" conceptCode="5872180479535840656"/>
+                <element name="Tetracycline" conceptCode="3310206503480318439"/>
+                <element name="Ciprofloxacin" conceptCode="9061679561974650455"/>
+                <element name="Ofloxacin" conceptCode="1574108454021613811"/>
+                <element name="Cloxacillin" conceptCode="3806682637183984092"/>
+                <element name="Roxithromycin" conceptCode="6465465348223704474"/>
+                <element name="Lincomycin" conceptCode="2719977994611588981"/>
+                <element name="Gentamycin sensitivity" conceptCode="8330273960603505645"/>
+                <element name="Piperacillin" conceptCode="1554078747086162947"/>
+                <element name="Chloramphenicol" conceptCode="9030239441777601899"/>
+                <element name="Levofloxacin" conceptCode="8748251330667450620"/>
+                <element name="Amikacin" conceptCode="4990014606132824658"/>
+                <element name="Ceftriaxone" conceptCode="3623740734624203729"/>
+                <element name="Cefotaxime" conceptCode="1556434221249124092"/>
+                <element name="Norfloxacin" conceptCode="7035044927360543338"/>
+                <element name="Nalidixic acid" conceptCode="7581028761993933399"/>
+                <element name="Ceftazidime" conceptCode="7869464223933049512"/>
+                <element name="Sample: organism isolated" conceptCode="7411650856612851099"/>
+                <element name="Augmentin" conceptCode="3647164013211918394"/>
+                <element name="Nitrofurantoin" conceptCode="1208971277364280773"/>
+                <element name="Meropenem" conceptCode="6468046108376657221"/>
+                <element name="Gram Staining" conceptCode="8475669181738364037"/>
+                <element name="Comment" conceptCode="7476738773821143552"/>
+                <element name="Sparfloxacin" conceptCode="96090000"/>
+                <element name="Cefuroxime" conceptCode="73986003"/>
+                <element name="Piperamidic Acid" conceptCode="1378736048240876287"/>
+                <element name="Perfloxacin" conceptCode="634249796300627613"/>
+                <element name="Penicillin G" conceptCode="78507004"/>
+                <element name="Culture" conceptCode="252398009"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

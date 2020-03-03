@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="945fc291-9655-4eaa-a1bd-7331846adc38" patientName=" LARDI LUMPO" patientId="C6-007562" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="bb47a34c-84bd-410a-b9a2-c070b6843637" specimenId="0009801" testName="Skin scraping for examination">
+            <elements>
+                <element name="Fungal Spores" conceptCode="7682543461322111609"/>
+                <element name="Hyphae" conceptCode="6881943080787207150"/>
+                <element name="Comment" conceptCode="1948127098570211551"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

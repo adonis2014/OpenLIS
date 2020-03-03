@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="25d47a2f-cfd2-44d6-8b59-503e3fa3abcc" patientName="- MARY BRAMWELL" patientId="C4-044111" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="28088c0d-17e1-4399-a5d2-383eb74ae4e9" specimenId="0009723" testName="Glycosylated hemoglobin">
+            <elements>
+                <element name="Glycosylated hemoglobin A (IFCC)" conceptCode="6917426914143284995"/>
+                <element name="Total glycosylated hemoglobin (DCCT)" conceptCode="1212817167185388658"/>
+                <element name="DCCT Comment" conceptCode="7316100470273830661"/>
+                <element name="IFCC Comments" conceptCode="536432226075149571"/>
+                <element name="Estimated Average Glucose" conceptCode="4320548476181208166"/>
+            </elements>
+        </test>
+        <test testId="9dce8f5c-09a4-401a-af9b-21fbff1c733b" specimenId="0009723" testName="Fasting blood glucose measurement">
+            <elements>
+                <element name="Fasting blood glucose" conceptCode="4372702262623210493" analyteCode="300"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

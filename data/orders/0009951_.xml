@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="bf64e89f-e823-404e-8f60-00f9d54da06c" patientName="- MARGARET KONSIM" patientId="C6-004345" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="85aa12ab-327f-4c60-8fce-5e2a07302a74" specimenId="0009951" testName="Glycosylated hemoglobin">
+            <elements>
+                <element name="Glycosylated hemoglobin A (IFCC)" conceptCode="6917426914143284995"/>
+                <element name="Total glycosylated hemoglobin (DCCT)" conceptCode="1212817167185388658"/>
+                <element name="DCCT Comment" conceptCode="7316100470273830661"/>
+                <element name="IFCC Comments" conceptCode="536432226075149571"/>
+                <element name="Estimated Average Glucose" conceptCode="4320548476181208166"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

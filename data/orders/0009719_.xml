@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="c9ae8d30-eb62-4814-b9b4-0ed3f8b54717" patientName="Mr MERCY AMOAH" patientId="C4-026839" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="b274a024-0f65-41f7-a127-688017af41b7" specimenId="0009719" testName="Glucose-6-phosphatase measurement">
+            <elements>
+                <element name="Glucose-6-phosphate dehydrogenase" conceptCode="901760743093029379"/>
+            </elements>
+        </test>
+        <test testId="e2bcaa18-3d88-4aab-b5f0-ee139ed52017" specimenId="0009719" testName="2-hr post-prandial glucose level">
+            <elements>
+                <element name="Fasting blood glucose" conceptCode="1874506432902776036" analyteCode="300"/>
+                <element name="2-Hour Post Prandial" conceptCode="1271441680650563420"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

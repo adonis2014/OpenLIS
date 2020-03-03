@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="c23fdec7-753f-4c69-b16f-7b24bf791605" patientName="Lt. Col JOHN DANSO-ANKRAH" patientId="C6-007464" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="3b88cd1a-d4ff-4f84-b767-af4ef809a792" specimenId="0009753" testName="Routine Stool Examination">
+            <elements>
+                <element name="Appearance" conceptCode="1265621716380464588"/>
+                <element name="Red blood cell" conceptCode="1254871005867085462"/>
+                <element name="Mucus" conceptCode="1796386217590310037"/>
+                <element name="Reducing substances" conceptCode="5768248648226235264"/>
+                <element name="Blood" conceptCode="6716866247928893583"/>
+                <element name="Occult blood" conceptCode="7847091096361979397"/>
+                <element name="Adult Worms" conceptCode="578096005681167596"/>
+                <element name="Epithelial cells" conceptCode="8524891807755283362"/>
+                <element name="Macrophages" conceptCode="7989740242438026718"/>
+                <element name="Fat Globules" conceptCode="3938080717543624335"/>
+                <element name="Ova in feces" conceptCode="7420948942111341868"/>
+                <element name="Flagellates" conceptCode="2492734693439634744"/>
+                <element name="Consistency of stool" conceptCode="4071302374918920431"/>
+                <element name="WBC" conceptCode="3565400355616592078"/>
+                <element name="Yeast cells" conceptCode="4525459072524229420"/>
+                <element name="Protozoa" conceptCode="4179571652960670709"/>
+                <element name="Stool Larvae" conceptCode="521605907413863100"/>
+                <element name="Comment" conceptCode="3684312080396343702"/>
+            </elements>
+        </test>
+        <test testId="663a012d-dade-4da8-9037-0eb9c9fe1d8a" specimenId="0009753" testName="Urine examination">
+            <elements>
+                <element name="Urine Leucocytes" conceptCode="8839583681788405768"/>
+                <element name="Colour of urine" conceptCode="3458638911182414768"/>
+                <element name="Odor of urine" conceptCode="8177443460843920822"/>
+                <element name="Urine appearance" conceptCode="365430005"/>
+                <element name="Urine pH test" conceptCode="2537107575270738879"/>
+                <element name="Urine protein" conceptCode="2720827037213004054" analyteCode="348"/>
+                <element name="Urine Ketones" conceptCode="4425249775019552725"/>
+                <element name="Urine sediment" conceptCode="5702981691682735950"/>
+                <element name="Urinary cast, granular" conceptCode="5571976229962199682"/>
+                <element name="Epithelial Cells" conceptCode="5567468555376432900"/>
+                <element name="Pus Cells" conceptCode="1579964185949757580"/>
+                <element name="Hyaline Casts" conceptCode="5876133541398530398"/>
+                <element name="SG of urine" conceptCode="2641434251338706156"/>
+                <element name="Blood in urine" conceptCode="6528088977245069354"/>
+                <element name="Urine bile salt" conceptCode="4777133838667224883"/>
+                <element name="Urine nitrite" conceptCode="1687548440574443216"/>
+                <element name="Urine microscopy" conceptCode="167349008"/>
+                <element name="Urobilinogen" conceptCode="4481266348161629524"/>
+                <element name="Urine Glucose" conceptCode="1604204333021894470"/>
+                <element name="Spermatozoa" conceptCode="2870817322475417144"/>
+                <element name="Trichomonas vaginalis" conceptCode="122292006"/>
+                <element name="S haematobium" conceptCode="1863043904536319122"/>
+                <element name="RBCs" conceptCode="994274173593128189"/>
+                <element name="WBC" conceptCode="648660752408710577"/>
+                <element name="Budding Yeast" conceptCode="3211186552438181554"/>
+                <element name="Unclassified Cast" conceptCode="5228303053996406835"/>
+                <element name="Unclassified Crystals" conceptCode="7390092324953990754"/>
+                <element name="Non Squamous Epithelial Cells" conceptCode="2555929248789483504"/>
+                <element name="Crystals" conceptCode="7899619624700816162"/>
+                <element name="Cast" conceptCode="2619398353919523704"/>
+                <element name="Comment" conceptCode="5422105662392354976"/>
+                <element name="Urine Bilirubin" conceptCode="1369669330313505822"/>
+                <element name="Urine fructose" conceptCode="6776532461261521362"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

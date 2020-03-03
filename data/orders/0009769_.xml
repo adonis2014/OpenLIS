@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="3f28969c-bda3-4d4e-9904-4d3f4705ec91" patientName="Ms AFISSETOU OSMAN" patientId="C0-031458" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="7b679b3e-e5b3-4193-b960-64438776ee3a" specimenId="0009769" testName="Indirect Coombs test">
+            <elements>
+                <element name="Indirect Coombs test" conceptCode="3124045244150201394"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

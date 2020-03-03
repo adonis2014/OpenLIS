@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="8589089e-a4d2-4ea3-b550-fba8300910af" patientName="Madam GRACE OPOKU" patientId="C5-011108" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="0cfa8da2-ed3c-4d24-8be0-64bdd9cde7ff" specimenId="0010025" testName="Fasting blood glucose measurement">
+            <elements>
+                <element name="Fasting blood glucose" conceptCode="4372702262623210493" analyteCode="300"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

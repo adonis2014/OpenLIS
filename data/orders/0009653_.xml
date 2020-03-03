@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="6d91d2ac-3958-4c59-b2d6-221b93a44288" patientName="Mrs RITA KWARFO ANTWI" patientId="C6-007378" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="46ed7b1c-84ea-4469-9b94-702b96550ac9" specimenId="0009653" testName="BUE &amp; Creatinine">
+            <elements>
+                <element name="Sodium measurement" conceptCode="5921900852653530338"/>
+                <element name="Serum chloride" conceptCode="5899384728285507757"/>
+                <element name="Urea measurement" conceptCode="7940515363109965334"/>
+                <element name="Phosphorus" conceptCode="8548959762324618148"/>
+                <element name="Calcium measurement" conceptCode="4145211814421082629"/>
+                <element name="Plasma bicarbonate" conceptCode="6950505464937324708"/>
+                <element name="Creatinine" conceptCode="663421999298289948"/>
+                <element name="Potassium (Serum)" conceptCode="8668246409892450924" analyteCode="303"/>
+                <element name="Urea/Creatine Ratio" conceptCode="2968447501570211024"/>
+                <element name="Anion Gap" conceptCode="6167582931207998250"/>
+            </elements>
+        </test>
+        <test testId="c3394528-88e4-4fe4-b404-30a3dfca4ff5" specimenId="0009653" testName="Liver function tests - general">
+            <elements>
+                <element name="Bilirubin, direct" conceptCode="3482719417882985186"/>
+                <element name="alkaline phosphatase" conceptCode="2084291013015543478"/>
+                <element name="aspartate aminotransferase" conceptCode="8689464656210554819"/>
+                <element name="Serum total protein" conceptCode="3362542678913067386"/>
+                <element name="Albumin measurement" conceptCode="7388866596737734463"/>
+                <element name="Serum total bilirubin" conceptCode="5690057609442171873"/>
+                <element name="Plasma alanine aminotransferase level" conceptCode="5818965896190864998"/>
+                <element name="Gamma glutamyl transferase" conceptCode="892413327302487644"/>
+                <element name="alpha-Amylase" conceptCode="3422169560002555176"/>
+                <element name="Globulin" conceptCode="4145101610549077310"/>
+                <element name="Indirect Bilirubin" conceptCode="5718527998431743474"/>
+            </elements>
+        </test>
+        <test testId="aec96413-5f3d-4679-9f5d-15d82f78b9f7" specimenId="0009653" testName="Uric acid measurement">
+            <elements>
+                <element name="Serum uric acid measurement" conceptCode="8233722657304396196" analyteCode="303"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

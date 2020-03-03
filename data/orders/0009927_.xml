@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="8ca24358-0280-43b2-9916-871c369542e6" patientName="Madam HASSANA HAFISU" patientId="C3-015609" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="85e791bd-387a-4000-b960-82171e6401f3" specimenId="0009927" testName="Urine  culture and sensitivity">
+            <elements>
+                <element name="Ampicillin" conceptCode="1690069507831127786"/>
+                <element name="Co-trimoxazole" conceptCode="4052987086816288153"/>
+                <element name="Cephalexin (substance)" conceptCode="5872180479535840656"/>
+                <element name="Tetracycline" conceptCode="3310206503480318439"/>
+                <element name="Ciprofloxacin" conceptCode="9061679561974650455"/>
+                <element name="Ofloxacin" conceptCode="1574108454021613811"/>
+                <element name="Cloxacillin" conceptCode="3806682637183984092"/>
+                <element name="Roxithromycin" conceptCode="6465465348223704474"/>
+                <element name="Lincomycin" conceptCode="2719977994611588981"/>
+                <element name="Gentamycin sensitivity" conceptCode="8330273960603505645"/>
+                <element name="Piperacillin" conceptCode="1554078747086162947"/>
+                <element name="Chloramphenicol" conceptCode="9030239441777601899"/>
+                <element name="Levofloxacin" conceptCode="8748251330667450620"/>
+                <element name="Amikacin" conceptCode="4990014606132824658"/>
+                <element name="Ceftriaxone" conceptCode="3623740734624203729"/>
+                <element name="Cefotaxime" conceptCode="1556434221249124092"/>
+                <element name="Norfloxacin" conceptCode="7035044927360543338"/>
+                <element name="Nalidixic acid" conceptCode="7581028761993933399"/>
+                <element name="Ceftazidime" conceptCode="7869464223933049512"/>
+                <element name="Sample: organism isolated" conceptCode="7411650856612851099"/>
+                <element name="Augmentin" conceptCode="3647164013211918394"/>
+                <element name="Nitrofurantoin" conceptCode="1208971277364280773"/>
+                <element name="Meropenem" conceptCode="6468046108376657221"/>
+                <element name="Gram Staining" conceptCode="8475669181738364037"/>
+                <element name="Comment" conceptCode="7476738773821143552"/>
+                <element name="Sparfloxacin" conceptCode="96090000"/>
+                <element name="Cefuroxime" conceptCode="73986003"/>
+                <element name="Piperamidic Acid" conceptCode="1378736048240876287"/>
+                <element name="Perfloxacin" conceptCode="634249796300627613"/>
+                <element name="Penicillin G" conceptCode="78507004"/>
+                <element name="Culture" conceptCode="252398009"/>
+            </elements>
+        </test>
+        <test testId="ff2e0f16-c7ef-44c7-90d9-0e902216a2a4" specimenId="0009927" testName="Urine examination">
+            <elements>
+                <element name="Urine Leucocytes" conceptCode="8839583681788405768"/>
+                <element name="Colour of urine" conceptCode="3458638911182414768"/>
+                <element name="Odor of urine" conceptCode="8177443460843920822"/>
+                <element name="Urine appearance" conceptCode="365430005"/>
+                <element name="Urine pH test" conceptCode="2537107575270738879"/>
+                <element name="Urine protein" conceptCode="2720827037213004054" analyteCode="348"/>
+                <element name="Urine Ketones" conceptCode="4425249775019552725"/>
+                <element name="Urine sediment" conceptCode="5702981691682735950"/>
+                <element name="Urinary cast, granular" conceptCode="5571976229962199682"/>
+                <element name="Epithelial Cells" conceptCode="5567468555376432900"/>
+                <element name="Pus Cells" conceptCode="1579964185949757580"/>
+                <element name="Hyaline Casts" conceptCode="5876133541398530398"/>
+                <element name="SG of urine" conceptCode="2641434251338706156"/>
+                <element name="Blood in urine" conceptCode="6528088977245069354"/>
+                <element name="Urine bile salt" conceptCode="4777133838667224883"/>
+                <element name="Urine nitrite" conceptCode="1687548440574443216"/>
+                <element name="Urine microscopy" conceptCode="167349008"/>
+                <element name="Urobilinogen" conceptCode="4481266348161629524"/>
+                <element name="Urine Glucose" conceptCode="1604204333021894470"/>
+                <element name="Spermatozoa" conceptCode="2870817322475417144"/>
+                <element name="Trichomonas vaginalis" conceptCode="122292006"/>
+                <element name="S haematobium" conceptCode="1863043904536319122"/>
+                <element name="RBCs" conceptCode="994274173593128189"/>
+                <element name="WBC" conceptCode="648660752408710577"/>
+                <element name="Budding Yeast" conceptCode="3211186552438181554"/>
+                <element name="Unclassified Cast" conceptCode="5228303053996406835"/>
+                <element name="Unclassified Crystals" conceptCode="7390092324953990754"/>
+                <element name="Non Squamous Epithelial Cells" conceptCode="2555929248789483504"/>
+                <element name="Crystals" conceptCode="7899619624700816162"/>
+                <element name="Cast" conceptCode="2619398353919523704"/>
+                <element name="Comment" conceptCode="5422105662392354976"/>
+                <element name="Urine Bilirubin" conceptCode="1369669330313505822"/>
+                <element name="Urine fructose" conceptCode="6776532461261521362"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

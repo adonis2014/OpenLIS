@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="c7e40823-52e6-413f-9057-3e5fc3562029" patientName="- FELIX KOJO TAMAKLOE" patientId="C4-024151" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="b7f3d35e-9fea-4e95-b1c3-fac7d8e1a6db" specimenId="0009759" testName="Routine Stool Examination">
+            <elements>
+                <element name="Appearance" conceptCode="1265621716380464588"/>
+                <element name="Red blood cell" conceptCode="1254871005867085462"/>
+                <element name="Mucus" conceptCode="1796386217590310037"/>
+                <element name="Reducing substances" conceptCode="5768248648226235264"/>
+                <element name="Blood" conceptCode="6716866247928893583"/>
+                <element name="Occult blood" conceptCode="7847091096361979397"/>
+                <element name="Adult Worms" conceptCode="578096005681167596"/>
+                <element name="Epithelial cells" conceptCode="8524891807755283362"/>
+                <element name="Macrophages" conceptCode="7989740242438026718"/>
+                <element name="Fat Globules" conceptCode="3938080717543624335"/>
+                <element name="Ova in feces" conceptCode="7420948942111341868"/>
+                <element name="Flagellates" conceptCode="2492734693439634744"/>
+                <element name="Consistency of stool" conceptCode="4071302374918920431"/>
+                <element name="WBC" conceptCode="3565400355616592078"/>
+                <element name="Yeast cells" conceptCode="4525459072524229420"/>
+                <element name="Protozoa" conceptCode="4179571652960670709"/>
+                <element name="Stool Larvae" conceptCode="521605907413863100"/>
+                <element name="Comment" conceptCode="3684312080396343702"/>
+            </elements>
+        </test>
+        <test testId="2200a0b8-accb-4671-9674-52742023c56b" specimenId="0009759" testName="FBC">
+            <elements>
+                <element name="Platelet count" conceptCode="3657367828941320264"/>
+                <element name="Neutrophil (Absolute) count" conceptCode="5495004948923522034"/>
+                <element name="Hematocrit" conceptCode="3627252385247844320"/>
+                <element name="Lymphocyte (%)" conceptCode="8218054551654045340"/>
+                <element name="Reticulocyte (%)" conceptCode="2280782167877882116"/>
+                <element name="Eosinophil (%)" conceptCode="63205137318021725"/>
+                <element name="Neutrophil (%)" conceptCode="7462397194045963934"/>
+                <element name="White Cells Count ( Absolute)" conceptCode="3753852184455721924"/>
+                <element name="MCHC" conceptCode="3813089087225500483"/>
+                <element name="MCV" conceptCode="1076804073850754254"/>
+                <element name="MCH" conceptCode="8581524153569018455"/>
+                <element name="Monocyte (%)" conceptCode="5229826945283232462"/>
+                <element name="Hemoglobin" conceptCode="6184945525117716018"/>
+                <element name="Mixed Absolute Count (Eosinophils, Monocytes and Basophils)" conceptCode="6809769500834862309"/>
+                <element name="Mixed Count (Eosinophils, Monocytes and Basophils)" conceptCode="6040958154949402994"/>
+                <element name="Red Blood Cells" conceptCode="6076684193318446612"/>
+                <element name="Basophil (%)" conceptCode="6406657762988918868"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

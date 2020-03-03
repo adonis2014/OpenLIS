@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="976a0fb0-319b-4a36-9631-36be07e0e38f" patientName="Baby Girl AFIA BOATENG" patientId="C6-006114" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="98308a82-a483-4f13-964d-ac0e98b9b247" specimenId="0009831" testName="Total bilirubin measurement">
+            <elements>
+                <element name="Serum total bilirubin" conceptCode="444365871209749261" analyteCode="319"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

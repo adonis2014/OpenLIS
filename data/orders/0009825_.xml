@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="0051bbf3-9941-45e7-aecc-cc448fc3e27a" patientName="Mr FRED JORDAN KLUDZI" patientId="C6-007467" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="ab8d5dfb-c01f-42e7-9d71-106c193d9ecd" specimenId="0009825" testName="HIV I &amp; II">
+            <elements>
+                <element name="HIV Results" conceptCode="2892393019803308343"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

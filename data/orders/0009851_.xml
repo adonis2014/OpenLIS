@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="b6363b6c-8ad7-4202-b840-87f1d42383ad" patientName="Baby Boy YAW OWUSU" patientId="C6-007047" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="ac9033e9-9276-448f-98ca-cd1a6b205d54" specimenId="0009851" testName="Glucose-6-phosphatase measurement">
+            <elements>
+                <element name="Glucose-6-phosphate dehydrogenase" conceptCode="901760743093029379"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

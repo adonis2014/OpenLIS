@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="12000c17-b784-439b-8139-e2d271bf94b2" patientName="Cpl. JOSEPHINE ADU-BLAY" patientId="C6-004701" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="54722969-eb88-46c0-a6f7-f8f8134407cc" specimenId="0009933" testName="Sickling test">
+            <elements>
+                <element name="Sickling test" conceptCode="252289009"/>
+            </elements>
+        </test>
+        <test testId="e7f4d1d0-7c82-4025-83ac-7e73553e1c72" specimenId="0009933" testName="FBC">
+            <elements>
+                <element name="Platelet count" conceptCode="3657367828941320264"/>
+                <element name="Neutrophil (Absolute) count" conceptCode="5495004948923522034"/>
+                <element name="Hematocrit" conceptCode="3627252385247844320"/>
+                <element name="Lymphocyte (%)" conceptCode="8218054551654045340"/>
+                <element name="Reticulocyte (%)" conceptCode="2280782167877882116"/>
+                <element name="Eosinophil (%)" conceptCode="63205137318021725"/>
+                <element name="Neutrophil (%)" conceptCode="7462397194045963934"/>
+                <element name="White Cells Count ( Absolute)" conceptCode="3753852184455721924"/>
+                <element name="MCHC" conceptCode="3813089087225500483"/>
+                <element name="MCV" conceptCode="1076804073850754254"/>
+                <element name="MCH" conceptCode="8581524153569018455"/>
+                <element name="Monocyte (%)" conceptCode="5229826945283232462"/>
+                <element name="Hemoglobin" conceptCode="6184945525117716018"/>
+                <element name="Mixed Absolute Count (Eosinophils, Monocytes and Basophils)" conceptCode="6809769500834862309"/>
+                <element name="Mixed Count (Eosinophils, Monocytes and Basophils)" conceptCode="6040958154949402994"/>
+                <element name="Red Blood Cells" conceptCode="6076684193318446612"/>
+                <element name="Basophil (%)" conceptCode="6406657762988918868"/>
+            </elements>
+        </test>
+        <test testId="0b065069-150b-42ca-b573-1a9d060dbb02" specimenId="0009933" testName="Malaria thick smear">
+            <elements>
+                <element name="Malaria smear" conceptCode="2317709495109420299"/>
+                <element name="General Comment" conceptCode="1531324609908802726"/>
+                <element name="Number of Parasites" conceptCode="8449559474568825122"/>
+            </elements>
+        </test>
+        <test testId="bc25e9ae-7391-44b3-9fa8-439661e9876c" specimenId="0009933" testName="Routine Stool Examination">
+            <elements>
+                <element name="Appearance" conceptCode="1265621716380464588"/>
+                <element name="Red blood cell" conceptCode="1254871005867085462"/>
+                <element name="Mucus" conceptCode="1796386217590310037"/>
+                <element name="Reducing substances" conceptCode="5768248648226235264"/>
+                <element name="Blood" conceptCode="6716866247928893583"/>
+                <element name="Occult blood" conceptCode="7847091096361979397"/>
+                <element name="Adult Worms" conceptCode="578096005681167596"/>
+                <element name="Epithelial cells" conceptCode="8524891807755283362"/>
+                <element name="Macrophages" conceptCode="7989740242438026718"/>
+                <element name="Fat Globules" conceptCode="3938080717543624335"/>
+                <element name="Ova in feces" conceptCode="7420948942111341868"/>
+                <element name="Flagellates" conceptCode="2492734693439634744"/>
+                <element name="Consistency of stool" conceptCode="4071302374918920431"/>
+                <element name="WBC" conceptCode="3565400355616592078"/>
+                <element name="Yeast cells" conceptCode="4525459072524229420"/>
+                <element name="Protozoa" conceptCode="4179571652960670709"/>
+                <element name="Stool Larvae" conceptCode="521605907413863100"/>
+                <element name="Comment" conceptCode="3684312080396343702"/>
+            </elements>
+        </test>
+        <test testId="b9a5e242-1193-44e7-bd4e-bc670eca5f00" specimenId="0009933" testName="Urine examination">
+            <elements>
+                <element name="Urine Leucocytes" conceptCode="8839583681788405768"/>
+                <element name="Colour of urine" conceptCode="3458638911182414768"/>
+                <element name="Odor of urine" conceptCode="8177443460843920822"/>
+                <element name="Urine appearance" conceptCode="365430005"/>
+                <element name="Urine pH test" conceptCode="2537107575270738879"/>
+                <element name="Urine protein" conceptCode="2720827037213004054" analyteCode="348"/>
+                <element name="Urine Ketones" conceptCode="4425249775019552725"/>
+                <element name="Urine sediment" conceptCode="5702981691682735950"/>
+                <element name="Urinary cast, granular" conceptCode="5571976229962199682"/>
+                <element name="Epithelial Cells" conceptCode="5567468555376432900"/>
+                <element name="Pus Cells" conceptCode="1579964185949757580"/>
+                <element name="Hyaline Casts" conceptCode="5876133541398530398"/>
+                <element name="SG of urine" conceptCode="2641434251338706156"/>
+                <element name="Blood in urine" conceptCode="6528088977245069354"/>
+                <element name="Urine bile salt" conceptCode="4777133838667224883"/>
+                <element name="Urine nitrite" conceptCode="1687548440574443216"/>
+                <element name="Urine microscopy" conceptCode="167349008"/>
+                <element name="Urobilinogen" conceptCode="4481266348161629524"/>
+                <element name="Urine Glucose" conceptCode="1604204333021894470"/>
+                <element name="Spermatozoa" conceptCode="2870817322475417144"/>
+                <element name="Trichomonas vaginalis" conceptCode="122292006"/>
+                <element name="S haematobium" conceptCode="1863043904536319122"/>
+                <element name="RBCs" conceptCode="994274173593128189"/>
+                <element name="WBC" conceptCode="648660752408710577"/>
+                <element name="Budding Yeast" conceptCode="3211186552438181554"/>
+                <element name="Unclassified Cast" conceptCode="5228303053996406835"/>
+                <element name="Unclassified Crystals" conceptCode="7390092324953990754"/>
+                <element name="Non Squamous Epithelial Cells" conceptCode="2555929248789483504"/>
+                <element name="Crystals" conceptCode="7899619624700816162"/>
+                <element name="Cast" conceptCode="2619398353919523704"/>
+                <element name="Comment" conceptCode="5422105662392354976"/>
+                <element name="Urine Bilirubin" conceptCode="1369669330313505822"/>
+                <element name="Urine fructose" conceptCode="6776532461261521362"/>
+            </elements>
+        </test>
+        <test testId="ca286a5f-9df3-4e1d-add4-71805c7e4b87" specimenId="0009933" testName="VDRL">
+            <elements>
+                <element name="VRDL" conceptCode="3167703704125377731"/>
+                <element name="VRDL" conceptCode="3167703704125377731"/>
+            </elements>
+        </test>
+        <test testId="78b0106a-bf78-42ea-93a7-c4dd4232b28e" specimenId="0009933" testName="Indirect Coombs test">
+            <elements>
+                <element name="Indirect Coombs test" conceptCode="3124045244150201394"/>
+            </elements>
+        </test>
+        <test testId="649fe575-46ff-49c3-8013-ec096337ce37" specimenId="0009933" testName="ABO blood grouping">
+            <elements>
+                <element name="Comment" conceptCode="5680634882101768846"/>
+                <element name="Blood group" conceptCode="2840866414003375037"/>
+            </elements>
+        </test>
+        <test testId="a4709f69-92a2-4ecb-b9c8-e87814b2956f" specimenId="0009933" testName="Hepatitis B antigen screening">
+            <elements>
+                <element name="Hepatitis B virus surface antigen" conceptCode="4366920645505500847"/>
+            </elements>
+        </test>
+        <test testId="1196a550-53e5-4e27-82ee-e81a8674eed6" specimenId="0009933" testName="2-hr post-prandial glucose level">
+            <elements>
+                <element name="Fasting blood glucose" conceptCode="1874506432902776036" analyteCode="300"/>
+                <element name="2-Hour Post Prandial" conceptCode="1271441680650563420"/>
+            </elements>
+        </test>
+        <test testId="c7ccd6be-98c5-4805-b529-df0227a47d1d" specimenId="0009933" testName="Glucose-6-phosphatase measurement">
+            <elements>
+                <element name="Glucose-6-phosphate dehydrogenase" conceptCode="901760743093029379"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

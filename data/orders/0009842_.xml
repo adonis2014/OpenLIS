@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="7e05b9e1-5025-4381-99f6-f0a5c1905720" patientName="Boy FLORIAN ROBERT MASS" patientId="C6-006963" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="5277ca37-a51d-4c86-b9fd-7f54eccee2b9" specimenId="0009842" testName="Erythrocyte sedimentation">
+            <elements>
+                <element name="Erythrocyte sedimentation rate" conceptCode="7328326788237695725"/>
+            </elements>
+        </test>
+        <test testId="a4d085cc-49a4-4daa-8b1e-df7a2dbee634" specimenId="0009842" testName="Hemoglobin electrophoresis">
+            <elements>
+                <element name="Sickling test" conceptCode="252289009"/>
+                <element name="Hemoglobin electrophoresis" conceptCode="1612045677817702915"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

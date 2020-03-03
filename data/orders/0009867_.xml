@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="bc58f4b5-0312-4912-8bfc-b6cd1fe0f868" patientName="Baby Boy YAW OWUSU" patientId="C6-007047" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="f79dd4d3-8ca0-4daf-a8da-e72b025ee4f3" specimenId="0009867" testName="ABO blood grouping">
+            <elements>
+                <element name="Comment" conceptCode="5680634882101768846"/>
+                <element name="Blood group" conceptCode="2840866414003375037"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

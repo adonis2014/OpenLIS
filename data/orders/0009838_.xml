@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="576b32b9-7205-4d5e-87a9-c34c23099616" patientName="Mr. JOHN W.K ODOOM" patientId="C6-007514" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="4dc0a43a-db07-4cfc-96f1-0130fbf3a79a" specimenId="0009838" testName="Urine examination">
+            <elements>
+                <element name="Urine Leucocytes" conceptCode="8839583681788405768"/>
+                <element name="Colour of urine" conceptCode="3458638911182414768"/>
+                <element name="Odor of urine" conceptCode="8177443460843920822"/>
+                <element name="Urine appearance" conceptCode="365430005"/>
+                <element name="Urine pH test" conceptCode="2537107575270738879"/>
+                <element name="Urine protein" conceptCode="2720827037213004054" analyteCode="348"/>
+                <element name="Urine Ketones" conceptCode="4425249775019552725"/>
+                <element name="Urine sediment" conceptCode="5702981691682735950"/>
+                <element name="Urinary cast, granular" conceptCode="5571976229962199682"/>
+                <element name="Epithelial Cells" conceptCode="5567468555376432900"/>
+                <element name="Pus Cells" conceptCode="1579964185949757580"/>
+                <element name="Hyaline Casts" conceptCode="5876133541398530398"/>
+                <element name="SG of urine" conceptCode="2641434251338706156"/>
+                <element name="Blood in urine" conceptCode="6528088977245069354"/>
+                <element name="Urine bile salt" conceptCode="4777133838667224883"/>
+                <element name="Urine nitrite" conceptCode="1687548440574443216"/>
+                <element name="Urine microscopy" conceptCode="167349008"/>
+                <element name="Urobilinogen" conceptCode="4481266348161629524"/>
+                <element name="Urine Glucose" conceptCode="1604204333021894470"/>
+                <element name="Spermatozoa" conceptCode="2870817322475417144"/>
+                <element name="Trichomonas vaginalis" conceptCode="122292006"/>
+                <element name="S haematobium" conceptCode="1863043904536319122"/>
+                <element name="RBCs" conceptCode="994274173593128189"/>
+                <element name="WBC" conceptCode="648660752408710577"/>
+                <element name="Budding Yeast" conceptCode="3211186552438181554"/>
+                <element name="Unclassified Cast" conceptCode="5228303053996406835"/>
+                <element name="Unclassified Crystals" conceptCode="7390092324953990754"/>
+                <element name="Non Squamous Epithelial Cells" conceptCode="2555929248789483504"/>
+                <element name="Crystals" conceptCode="7899619624700816162"/>
+                <element name="Cast" conceptCode="2619398353919523704"/>
+                <element name="Comment" conceptCode="5422105662392354976"/>
+                <element name="Urine Bilirubin" conceptCode="1369669330313505822"/>
+                <element name="Urine fructose" conceptCode="6776532461261521362"/>
+            </elements>
+        </test>
+        <test testId="64f43876-2e81-424b-9cb8-7b3ea8b8c0cd" specimenId="0009838" testName="Fasting blood glucose measurement">
+            <elements>
+                <element name="Fasting blood glucose" conceptCode="4372702262623210493" analyteCode="300"/>
+            </elements>
+        </test>
+        <test testId="d00bfbe6-829a-46d0-b1d5-dea8340338b3" specimenId="0009838" testName="Lipid Profile">
+            <elements>
+                <element name="Total cholesterol" conceptCode="7655968521738328212" analyteCode="305"/>
+                <element name="Plasma HDL cholesterol level" conceptCode="952898762303083071" analyteCode="356"/>
+                <element name="Serum LDL cholesterol level" conceptCode="7528475154054724204" analyteCode="916"/>
+                <element name="Serum triglycerides" conceptCode="5798410968183305265" analyteCode="304"/>
+                <element name="VLDL" conceptCode="4333331952803522593" analyteCode="912"/>
+                <element name="Coronary heart disease risk" conceptCode="142613002"/>
+            </elements>
+        </test>
+        <test testId="eb2d6a35-4185-4ba4-b272-b986f81f10fa" specimenId="0009838" testName="Liver function tests - general">
+            <elements>
+                <element name="Bilirubin, direct" conceptCode="3482719417882985186" analyteCode="905"/>
+                <element name="alkaline phosphatase" conceptCode="2084291013015543478" analyteCode="321"/>
+                <element name="aspartate aminotransferase" conceptCode="8689464656210554819" analyteCode="320"/>
+                <element name="Serum total protein" conceptCode="3362542678913067386" analyteCode="301"/>
+                <element name="Albumin measurement" conceptCode="7388866596737734463" analyteCode="303"/>
+                <element name="Serum total bilirubin" conceptCode="5690057609442171873" analyteCode="319"/>
+                <element name="Plasma alanine aminotransferase level" conceptCode="5818965896190864998" analyteCode="322"/>
+                <element name="Gamma glutamyl transferase" conceptCode="892413327302487644" analyteCode="326"/>
+                <element name="alpha-Amylase" conceptCode="3422169560002555176" analyteCode="306"/>
+                <element name="Globulin" conceptCode="4145101610549077310" analyteCode="910"/>
+                <element name="Indirect Bilirubin" conceptCode="5718527998431743474" analyteCode="317"/>
+            </elements>
+        </test>
+        <test testId="8e16d76c-bf4b-4a6b-8b2d-9d1394372835" specimenId="0009838" testName="BUE &amp; Creatinine">
+            <elements>
+                <element name="Sodium measurement" conceptCode="5921900852653530338" analyteCode="309"/>
+                <element name="Serum chloride" conceptCode="5899384728285507757" analyteCode="307"/>
+                <element name="Urea measurement" conceptCode="7940515363109965334" analyteCode="315"/>
+                <element name="Phosphorus" conceptCode="8548959762324618148" analyteCode="311"/>
+                <element name="Calcium measurement" conceptCode="4145211814421082629" analyteCode="318"/>
+                <element name="Plasma bicarbonate" conceptCode="6950505464937324708" analyteCode="310"/>
+                <element name="Creatinine" conceptCode="663421999298289948" analyteCode="314"/>
+                <element name="Potassium (Serum)" conceptCode="8668246409892450924" analyteCode="308"/>
+                <element name="Urea/Creatine Ratio" conceptCode="2968447501570211024" analyteCode="900"/>
+                <element name="Anion Gap" conceptCode="6167582931207998250" analyteCode="902"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

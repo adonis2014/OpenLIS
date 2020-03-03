@@ -1,0 +1,47 @@
+.button {
+    -fx-font-weight: bold;
+}
+
+.header
+{
+    -fx-background-image: url("../images/headbg.png");
+    -fx-background-repeat: repeat-x;
+}
+
+.pane
+{
+    -fx-background-color: #ebebeb;
+}
+
+.app-name
+{
+    -fx-font-size: 1.4em;
+    -fx-color: white;
+    -fx-font-weight: bold;
+    -fx-margin: 20px;
+}
+
+.page-title
+{
+    -fx-font-size: 1.1em;
+    -fx-color: maroon;
+    -fx-font-weight: bold;
+    -fx-margin: 20px;
+    -fx-border-bottom:  #8A0808 double medium;
+}
+
+.delete
+{
+/*    -fx-font-size: 1.4em;*/
+    -fx-color: red;
+/*    -fx-font-weight: bold;*/
+/*    -fx-margin: 20px;*/
+}
+
+.header-label .text {
+    -fx-fill: #8A0808;
+}
+
+.header-label  .glyph-icon {
+    -fx-fill: #8A0808;
+}

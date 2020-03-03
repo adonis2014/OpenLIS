@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-02-02T18:18:21 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Lab Report" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e691a110-c9bd-4ca8-bcbd-28346f97f264">
+	<style name="detail-background">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{no}.intValue() % 2 == 0]]></conditionExpression>
+			<style mode="Opaque" backcolor="#F9F9F9"/>
+		</conditionalStyle>
+	</style>
+	<style name="field-label" vTextAlign="Middle" fontName="Calibri" fontSize="12" isBold="true"/>
+	<style name="field-value" vTextAlign="Middle" fontName="Calibri" fontSize="12" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+	<style name="detail-data" fontName="Calibri" fontSize="11"/>
+	<style name="title" fill="Solid" fontName="Calibri" fontSize="11"/>
+	<style name="test-field" style="field-value" mode="Opaque" vTextAlign="Middle" fontSize="12">
+		<box leftPadding="3">
+			<topPen lineWidth="0.2" lineColor="#D9D9D9"/>
+			<leftPen lineWidth="0.2" lineColor="#D9D9D9"/>
+			<bottomPen lineWidth="0.2" lineColor="#D9D9D9"/>
+			<rightPen lineWidth="0.2" lineColor="#D9D9D9"/>
+		</box>
+	</style>
+	<style name="label-text" style="field-label" vTextAlign="Middle" isBold="false">
+		<pen lineStyle="Solid"/>
+		<box leftPadding="2">
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<parameter name="healthcareEnterprise" class="java.lang.String"/>
+	<parameter name="department" class="java.lang.String"/>
+	<parameter name="healthFacility" class="java.lang.String"/>
+	<parameter name="labReport" class="java.lang.String"/>
+	<parameter name="enterpriseLogo" class="java.io.InputStream"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="patientName" class="java.lang.String"/>
+	<field name="testName" class="java.lang.String"/>
+	<field name="resultValue" class="java.lang.String"/>
+	<field name="referenceRange" class="java.lang.String"/>
+	<field name="valueDate" class="java.util.Date"/>
+	<field name="sampleId" class="java.lang.String"/>
+	<field name="patientAddress" class="java.lang.String"/>
+	<field name="patientId" class="java.lang.String"/>
+	<field name="fluidType" class="java.lang.String"/>
+	<field name="gender" class="java.lang.String"/>
+	<field name="age" class="java.lang.Integer"/>
+	<field name="analyteCode" class="java.lang.String"/>
+	<field name="resultUnit" class="java.lang.String"/>
+	<variable name="no" class="java.lang.Integer" calculation="Count">
+		<variableExpression><![CDATA[$F{testName}]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="214" splitType="Stretch">
+			<image>
+				<reportElement x="478" y="0" width="76" height="75" uuid="b03f717d-1aea-4b47-af8b-8682f6b333f8">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{enterpriseLogo}]]></imageExpression>
+			</image>
+			<frame>
+				<reportElement x="0" y="108" width="554" height="100" uuid="3568aa8e-55a0-481f-ad68-8fe495321ebc"/>
+				<staticText>
+					<reportElement style="field-label" x="4" y="8" width="68" height="15" uuid="860be40c-3b34-4149-a575-ff5d946584d0">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<text><![CDATA[Patient Name]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="72" y="8" width="15" height="15" uuid="43912941-7216-44bd-a43e-2f7c33898690">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textElement textAlignment="Center"/>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement style="field-value" x="87" y="8" width="175" height="15" uuid="60192d97-200c-4254-b40d-38511ff38f28"/>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textFieldExpression><![CDATA[$F{patientName}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement style="field-label" x="312" y="8" width="61" height="15" uuid="414ece2c-8494-4f2e-9e14-d1cd82b8eecd">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<text><![CDATA[Sample ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="373" y="8" width="15" height="15" uuid="7bd1294a-8d45-4114-874d-d2fb95dbc482"/>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textElement textAlignment="Center"/>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement style="field-value" x="388" y="8" width="160" height="15" uuid="9092266d-dcb7-4ed1-889a-7ae41781c03c">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textFieldExpression><![CDATA[$F{sampleId}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement style="field-label" x="4" y="26" width="68" height="15" uuid="82f46655-c44d-4a14-9e8d-ac0008b20759">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<text><![CDATA[Patient ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="72" y="26" width="15" height="15" uuid="fc96cf22-69fc-4891-8715-60421c218ace">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textElement textAlignment="Center"/>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement style="field-value" x="87" y="26" width="175" height="15" uuid="9eec7c16-8c20-4e62-b8f3-8edb5cf437df"/>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textFieldExpression><![CDATA[$F{patientId}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement style="field-label" x="312" y="45" width="61" height="15" uuid="b77def10-f454-4549-a023-288ddc0c7a8b">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<text><![CDATA[Date]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="373" y="45" width="15" height="15" uuid="d8a70ea7-0c35-4502-9372-4b687df5e16c"/>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textElement textAlignment="Center"/>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField pattern="dd/MM/yyyy" isBlankWhenNull="true">
+					<reportElement style="field-value" x="388" y="45" width="160" height="15" uuid="5a7daa1e-6edc-42e5-84e0-03bfc9741549">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textFieldExpression><![CDATA[$F{valueDate}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement style="field-label" x="4" y="83" width="68" height="15" uuid="bd7f2023-c42c-4e13-a28d-93669f84b979">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<text><![CDATA[Address]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="72" y="83" width="15" height="15" uuid="7ee5a37b-871d-4866-bc9f-da96fd68726c">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textElement textAlignment="Center"/>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement style="field-value" x="87" y="83" width="175" height="15" uuid="a1459b25-37e5-45c1-8c20-242b79fbb6cc"/>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textFieldExpression><![CDATA[$F{patientAddress}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement style="field-label" x="312" y="26" width="61" height="15" uuid="1505b4cf-5f88-4b6b-bae6-192dd5db9db2">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<text><![CDATA[Fluid]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="373" y="26" width="15" height="15" uuid="6081c7f6-28f2-4939-8b28-01604a0134f2"/>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textElement textAlignment="Center"/>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement style="field-value" x="388" y="26" width="160" height="15" uuid="03040021-fd80-42f4-8a65-7b0bf4ff334a">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textFieldExpression><![CDATA[$F{fluidType}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement style="field-label" x="4" y="45" width="68" height="15" uuid="367b649d-b07e-4058-8dfa-b513c7a1f09f">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<text><![CDATA[Gender]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="72" y="45" width="15" height="15" uuid="872da00c-f95e-432f-b00a-4b991fefb6f1">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textElement textAlignment="Center"/>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement style="field-value" x="87" y="45" width="175" height="15" uuid="51a5bf44-8332-4dfe-827c-b17d45f08e6c"/>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textFieldExpression><![CDATA[$F{gender}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement style="field-label" x="4" y="64" width="68" height="15" uuid="274d7a39-38dc-4327-bd2d-b97c5dca2870">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<text><![CDATA[Age]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="72" y="64" width="15" height="15" uuid="2c61f36a-f4d6-4c9b-b7f3-2b2ca5bb7227">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textElement textAlignment="Center"/>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement style="field-value" x="87" y="64" width="175" height="15" uuid="981503e4-98d1-4063-a541-dd860a7d75ae"/>
+					<box>
+						<topPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<leftPen lineWidth="0.0" lineColor="#F2F2F2"/>
+						<bottomPen lineWidth="0.2" lineColor="#E8E8E8"/>
+						<rightPen lineWidth="0.0" lineColor="#F2F2F2"/>
+					</box>
+					<textFieldExpression><![CDATA[$F{age}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<textField isBlankWhenNull="true">
+				<reportElement x="186" y="2" width="288" height="26" uuid="41fe7ca1-a4ca-4ab8-b8fe-e1ac7458a48b"/>
+				<textElement textAlignment="Right">
+					<font fontName="Calibri" size="19"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{healthcareEnterprise}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="186" y="29" width="288" height="20" uuid="8af01efe-28e1-466c-bddd-f57503ba7b64"/>
+				<textElement textAlignment="Right">
+					<font fontName="Calibri" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{healthFacility}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="186" y="51" width="288" height="20" uuid="f28ad2c8-f9ad-40d3-beb7-014f50e8a80f"/>
+				<textElement textAlignment="Right">
+					<font fontName="Calibri" size="12" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{department}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="102" width="555" height="2" uuid="ae40356a-02ba-44cf-935a-e30a06e4c7b7"/>
+			</line>
+			<staticText>
+				<reportElement positionType="Float" mode="Opaque" x="0" y="76" width="555" height="25" forecolor="#FFFCFC" backcolor="#8A8281" uuid="c52eca70-1de8-4d78-887d-364c0a7914e3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Lab Report]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="34" splitType="Stretch">
+			<staticText>
+				<reportElement style="field-label" x="210" y="15" width="220" height="19" uuid="95c39ace-6759-4ee0-bf6a-726812f4c19f"/>
+				<box>
+					<bottomPen lineWidth="0.5"/>
+				</box>
+				<text><![CDATA[Result]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="field-label" x="430" y="15" width="124" height="19" uuid="49b38b10-dc34-41f8-a541-3cc9d9f957d6"/>
+				<box>
+					<bottomPen lineWidth="0.5"/>
+				</box>
+				<text><![CDATA[Reference Range]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="field-label" x="0" y="15" width="30" height="19" uuid="3ae64372-37df-4c8d-ab84-425e973283eb"/>
+				<box>
+					<bottomPen lineWidth="0.5"/>
+				</box>
+				<text><![CDATA[No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="field-label" x="30" y="15" width="180" height="19" uuid="3f23368a-5d64-4789-aa37-1f2ac35f40ab"/>
+				<box>
+					<bottomPen lineWidth="0.5"/>
+				</box>
+				<text><![CDATA[Test]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="15" splitType="Stretch">
+			<frame>
+				<reportElement style="detail-background" x="0" y="0" width="555" height="15" uuid="4e88309e-54f1-4160-b1e7-fe475461168d"/>
+				<textField isBlankWhenNull="true">
+					<reportElement style="detail-data" x="30" y="0" width="180" height="15" uuid="99196c46-c028-46b2-9177-d82f8f458b9f"/>
+					<textFieldExpression><![CDATA[$F{testName}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement style="detail-data" x="211" y="0" width="219" height="15" uuid="bf79949a-7195-4c2b-89e3-16d647410ebf"/>
+					<textFieldExpression><![CDATA[$F{resultValue} + "  " + $F{resultUnit}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement style="detail-data" x="430" y="0" width="124" height="15" uuid="2f6150dc-3a48-4125-927b-46635a999814"/>
+					<textFieldExpression><![CDATA[$F{referenceRange}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement style="detail-data" x="0" y="0" width="30" height="15" uuid="00439244-d408-440d-a0c4-02596bb12ddc">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box rightPadding="5"/>
+					<textElement textAlignment="Right"/>
+					<textFieldExpression><![CDATA[$V{no}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="18" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="25" splitType="Stretch">
+			<textField pattern="MMM d, yyyy h:mm:ss a z">
+				<reportElement x="390" y="0" width="158" height="15" uuid="0f4b14de-36c9-43c9-b004-2a326cc35406">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="8" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

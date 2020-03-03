@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="d53ee21b-94d9-4173-a533-b55c987b07da" patientName="Ms AUGUSTINE YAW KARIKARI" patientId="C4-042288" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="c085be5f-7679-4820-b0d3-0b3bdb3f7a09" specimenId="0009712" testName="Routine Stool Examination">
+            <elements>
+                <element name="Appearance" conceptCode="1265621716380464588"/>
+                <element name="Red blood cell" conceptCode="1254871005867085462"/>
+                <element name="Mucus" conceptCode="1796386217590310037"/>
+                <element name="Reducing substances" conceptCode="5768248648226235264"/>
+                <element name="Blood" conceptCode="6716866247928893583"/>
+                <element name="Occult blood" conceptCode="7847091096361979397"/>
+                <element name="Adult Worms" conceptCode="578096005681167596"/>
+                <element name="Epithelial cells" conceptCode="8524891807755283362"/>
+                <element name="Macrophages" conceptCode="7989740242438026718"/>
+                <element name="Fat Globules" conceptCode="3938080717543624335"/>
+                <element name="Ova in feces" conceptCode="7420948942111341868"/>
+                <element name="Flagellates" conceptCode="2492734693439634744"/>
+                <element name="Consistency of stool" conceptCode="4071302374918920431"/>
+                <element name="WBC" conceptCode="3565400355616592078"/>
+                <element name="Yeast cells" conceptCode="4525459072524229420"/>
+                <element name="Protozoa" conceptCode="4179571652960670709"/>
+                <element name="Stool Larvae" conceptCode="521605907413863100"/>
+                <element name="Comment" conceptCode="3684312080396343702"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

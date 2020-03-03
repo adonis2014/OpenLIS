@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="99494c0a-254a-47ac-8c47-9ce92d2175a4" patientName="Ms DORIS ARYEE" patientId="C0-009849" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="8756056d-6f78-4749-baa9-95790d9c9c42" specimenId="0009972" testName="Malaria thick smear">
+            <elements>
+                <element name="Malaria smear" conceptCode="2317709495109420299"/>
+                <element name="General Comment" conceptCode="1531324609908802726"/>
+                <element name="Number of Parasites" conceptCode="8449559474568825122"/>
+            </elements>
+        </test>
+        <test testId="aa7d8775-8611-46b1-be86-1221733eb455" specimenId="0009972" testName="FBC">
+            <elements>
+                <element name="Platelet count" conceptCode="3657367828941320264"/>
+                <element name="Neutrophil (Absolute) count" conceptCode="5495004948923522034"/>
+                <element name="Hematocrit" conceptCode="3627252385247844320"/>
+                <element name="Lymphocyte (%)" conceptCode="8218054551654045340"/>
+                <element name="Reticulocyte (%)" conceptCode="2280782167877882116"/>
+                <element name="Eosinophil (%)" conceptCode="63205137318021725"/>
+                <element name="Neutrophil (%)" conceptCode="7462397194045963934"/>
+                <element name="White Cells Count ( Absolute)" conceptCode="3753852184455721924"/>
+                <element name="MCHC" conceptCode="3813089087225500483"/>
+                <element name="MCV" conceptCode="1076804073850754254"/>
+                <element name="MCH" conceptCode="8581524153569018455"/>
+                <element name="Monocyte (%)" conceptCode="5229826945283232462"/>
+                <element name="Hemoglobin" conceptCode="6184945525117716018"/>
+                <element name="Mixed Absolute Count (Eosinophils, Monocytes and Basophils)" conceptCode="6809769500834862309"/>
+                <element name="Mixed Count (Eosinophils, Monocytes and Basophils)" conceptCode="6040958154949402994"/>
+                <element name="Red Blood Cells" conceptCode="6076684193318446612"/>
+                <element name="Basophil (%)" conceptCode="6406657762988918868"/>
+            </elements>
+        </test>
+        <test testId="16532721-205d-4e6a-9c93-e8d0e655a02e" specimenId="0009972" testName="Fasting blood glucose measurement">
+            <elements>
+                <element name="Fasting blood glucose" conceptCode="4372702262623210493" analyteCode="300"/>
+            </elements>
+        </test>
+        <test testId="ede88116-a45d-4ca9-9f7f-02612b64d74b" specimenId="0009972" testName="Lipid Profile">
+            <elements>
+                <element name="Total cholesterol" conceptCode="7655968521738328212" analyteCode="305"/>
+                <element name="Plasma HDL cholesterol level" conceptCode="952898762303083071" analyteCode="356"/>
+                <element name="Serum LDL cholesterol level" conceptCode="7528475154054724204" analyteCode="916"/>
+                <element name="Serum triglycerides" conceptCode="5798410968183305265" analyteCode="304"/>
+                <element name="VLDL" conceptCode="4333331952803522593" analyteCode="912"/>
+                <element name="Coronary heart disease risk" conceptCode="142613002"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

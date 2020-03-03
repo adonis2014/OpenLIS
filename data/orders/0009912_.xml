@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="0b415f27-2a27-494d-bdc0-106a45cc4920" patientName="Ms BEATRICE KOMBAT" patientId="C6-006491" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="2ef2d898-d460-448d-9be8-2cc4ed515939" specimenId="0009912" testName="Hemoglobin finding">
+            <elements>
+                <element name="Hemoglobin finding" conceptCode="4056082311852890413"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

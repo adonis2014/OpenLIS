@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="edd87f69-9f9f-490c-9b09-5e1e36f45897" patientName="- STEPHEN NANA-FOSU" patientId="C4-024479" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="cf02c244-850f-4508-a1fa-53eb0868136c" specimenId="0009703" testName="Fasting blood glucose measurement">
+            <elements>
+                <element name="Fasting blood glucose" conceptCode="4372702262623210493" analyteCode="300"/>
+            </elements>
+        </test>
+        <test testId="434db6c5-b640-4a40-82cc-bb1ad0c826d5" specimenId="0009703" testName="Glycosylated hemoglobin">
+            <elements>
+                <element name="Glycosylated hemoglobin A (IFCC)" conceptCode="6917426914143284995"/>
+                <element name="Total glycosylated hemoglobin (DCCT)" conceptCode="1212817167185388658"/>
+                <element name="DCCT Comment" conceptCode="7316100470273830661"/>
+                <element name="IFCC Comments" conceptCode="536432226075149571"/>
+                <element name="Estimated Average Glucose" conceptCode="4320548476181208166"/>
+            </elements>
+        </test>
+        <test testId="2727bd5a-648a-4149-9fff-1081b02b7f93" specimenId="0009703" testName="Lipid Profile">
+            <elements>
+                <element name="Total cholesterol" conceptCode="7655968521738328212" analyteCode="305"/>
+                <element name="Plasma HDL cholesterol level" conceptCode="952898762303083071" analyteCode="356"/>
+                <element name="Serum LDL cholesterol level" conceptCode="7528475154054724204" analyteCode="916"/>
+                <element name="Serum triglycerides" conceptCode="5798410968183305265" analyteCode="304"/>
+                <element name="VLDL" conceptCode="4333331952803522593" analyteCode="912"/>
+                <element name="Coronary heart disease risk" conceptCode="142613002"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

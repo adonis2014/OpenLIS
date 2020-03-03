@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="f19808c8-88ea-49c0-bdf8-492a47742449" patientName="Girl FATIMA ISSAH" patientId="C6-007641" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="ca2d1649-2409-4ad8-ab7b-e7f01471a0d2" specimenId="0009909" testName="Malaria thick smear">
+            <elements>
+                <element name="Malaria smear" conceptCode="2317709495109420299"/>
+                <element name="General Comment" conceptCode="1531324609908802726"/>
+                <element name="Number of Parasites" conceptCode="8449559474568825122"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

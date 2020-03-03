@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="f0214f59-89a4-4d65-a627-1d61e6ff660c" patientName="Mrs VIDA BOAKYE" patientId="C6-005625" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="b075c734-1ca5-4e3a-b7e8-37e01f3a17eb" specimenId="0009924" testName="Fasting blood glucose measurement">
+            <elements>
+                <element name="Fasting blood glucose" conceptCode="4372702262623210493" analyteCode="300"/>
+            </elements>
+        </test>
+        <test testId="ee68b74c-d27c-4c22-9d32-14fe5e7cb7c6" specimenId="0009924" testName="2-hr post-prandial glucose level">
+            <elements>
+                <element name="Fasting blood glucose" conceptCode="1874506432902776036" analyteCode="300"/>
+                <element name="2-Hour Post Prandial" conceptCode="1271441680650563420"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

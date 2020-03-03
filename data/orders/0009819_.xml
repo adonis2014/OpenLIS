@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="ba9d46bb-cbc8-4002-ae17-967862ef7bf8" patientName=" HAMDIYA ABDALLAH" patientId="C6-007585" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="d9279f57-b5d4-43db-81e1-8b392ffc14ac" specimenId="0009819" testName="Hemoglobin electrophoresis">
+            <elements>
+                <element name="Sickling test" conceptCode="252289009"/>
+                <element name="Hemoglobin electrophoresis" conceptCode="1612045677817702915"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>

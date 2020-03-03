@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="4d80919f-cd34-4133-95f9-b5d85a02c466" patientName="- NTIAMOAH OBED ASANTE" patientId="C2-002548" facilityId="c8c210a2-dcbc-4b3d-8d68-cc8b35578bb5" facilityName="37 Military Hospital">
+    <tests>
+        <test testId="8919ab1a-751d-45ad-88a1-7ac58cf2aa07" specimenId="0009963" testName="Hepatitis B surface antigen measurement">
+            <elements>
+                <element name="Hepatitis B virus surface antigen" conceptCode="4366920645505500847"/>
+            </elements>
+        </test>
+        <test testId="9acefb7f-7d82-4e32-bb84-3674c826ca80" specimenId="0009963" testName="Hepatitis C screening">
+            <elements>
+                <element name="Hepatitis C" conceptCode="2423065615705327221"/>
+            </elements>
+        </test>
+    </tests>
+</testOrder>
