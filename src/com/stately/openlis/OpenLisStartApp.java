@@ -47,70 +47,70 @@ public class OpenLisStartApp extends Application
 {
 
     @Inject UserSession userSession;
-    
+
     @Override
     public void start(Stage primaryStage)
     {
         try
         {
-            
+
 //            Weld weld = new Weld();
 //            WeldContainer container = weld.initialize();
-//            
+//
             System.out.println("userSession : " + userSession);
-            
+
             System.out.println("contani");
 //            redirectLog();
             System.out.println("Starting Integrator at " + LocalDateTime.now());
-            
-            
+
+
 //            CommandLineStartup.sampleDave();
-//            
+//
 //              updateOldRecord();
 
 //            System.exit(0);
-//            
+//
 
             loadConfiguration();
-            
-            
+
+
 //             System.exit(0);
-            
+
             DictionaryManager.instance();
-            
+
             try {
-                
+
             } catch (Exception e) {
             }
-            
-            
-            
-            
+
+
+
+
             Set<Object> strings = System.getProperties().keySet();
-            
+
 //            for (Object string : strings)
 //            {
 //                System.out.println(System.getProperty(string.toString()));
 //            }
-            
+
 //            System.out.println(System.getenv());
-            
+
 //            System.out.println(EntityManager.class.getResource("EntityManager.class"));
-            
+
 //            System.out.println(CrudService.instance().findAll(MedicalSystem.class));
 //            Font.loadFont(OpenLisStartApp.class.getResource("/fonts/awesome.ttf").toExternalForm(), 12);
-            
+
             FXMLLoader mainUIFxmlLoader = new FXMLLoader(getClass().getResource(Resources.MainUI));
 
             Parent mainUiInterface = mainUIFxmlLoader.load();
-            
+
             SubMenuSystem.map.put(Resources.MainUI, mainUIFxmlLoader);
-            
-            
+
+
 
             StackPane root = new StackPane();
             root.getChildren().add(mainUiInterface);
-            
+
             Scene scene = new Scene(root, 900,650);
             scene.getStylesheets().add(Resources.app_css);
             scene.getStylesheets().add(GlyphsStyle.BLUE.getStylePath());
@@ -118,9 +118,9 @@ public class OpenLisStartApp extends Application
             primaryStage.setTitle("Carewex - Integrator");
             primaryStage.setScene(scene);
             primaryStage.show();
-            
-            
-            
+
+
+
         } catch (Exception e)
         {
             e.printStackTrace();
@@ -136,12 +136,12 @@ public class OpenLisStartApp extends Application
     {
         launch(args);
     }
-    
+
     public void redirectLog()
     {
         try
         {
-            
+
             Runnable logrediretor = new Runnable()
             {
                 @Override
@@ -157,34 +157,34 @@ public class OpenLisStartApp extends Application
                     {
                         e.printStackTrace();
                     }
-                    
+
                 }
             };
-            
+
 //            Platform.runLater(logrediretor);
-            
+
             new Thread(logrediretor).start();
-            
+
         } catch (Exception e)
         {
             e.printStackTrace();
         }
     }
 
-    
+
     public void loadConfiguration()
     {
         try
         {
             String content = new String(Files.readAllBytes(new File("devices.conf").toPath()));
             System.out.println("configuration content : " + content);
-            
+
             String fileSeparator = "#";
-            
+
             String[] sections = StringUtil.split(content, fileSeparator);
             for (String section : sections)
             {
-                
+
                 System.out.println("SECTION : " + section);
                 if(Strings.isNullOrEmpty(section))
                 {
@@ -194,7 +194,7 @@ public class OpenLisStartApp extends Application
                 {
                     System.out.println("going to pass device");
                     String[] deviceParts = section.split("\n");
-                    
+
                     Map<String,String> map = new LinkedHashMap<>();
                     for (String devicePart : deviceParts)
                     {
@@ -209,35 +209,35 @@ public class OpenLisStartApp extends Application
                             String msg = "Error parsing : " + devicePart + " ::: ";
                             System.out.println(msg + e.getMessage());
                         }
-                        
-                        
+
+
                     }
-                    
+
                     TransmissionProtocol transmissionProtocol = null;
-                    
+
                     Device device = new Device();
                     device.setDeviceId(map.get("DEVICE_ID"));
                     device.setDeviceName(map.get("DEVICE_NAME"));
                     device.setPort(map.get("PORT_NO"));
                     device.setIpAddress(map.get("IP_ADDRESS"));
-                    
+
                     try
                     {
                         String transProcString = map.get("TRANSMISSION_PROTOCOL");
                         if(!Strings.isNullOrEmpty(transProcString))
                         {
-                            transmissionProtocol = TransmissionProtocol.valueOf(transProcString);                        
+                            transmissionProtocol = TransmissionProtocol.getEnum(transProcString);
                             device.setTransmissionProtocol(transmissionProtocol);
                         }
-                        
+
                     } catch (Exception e)
                     {
                         e.printStackTrace();
                     }
-                    
+
 
                     System.out.println(device.getTransmissionProtocol() + " ******  " +device.getTransmissionProtocol());
-                    
+
                     ApplicationScopeBean.devicesList.add(device);
                     System.out.println(ApplicationScopeBean.devicesList);
 //                    System.out.println(map);
@@ -246,25 +246,25 @@ public class OpenLisStartApp extends Application
                 {
                     String[] usersArray = section.split("\n");
                     List<String> usersList = new LinkedList<>(Arrays.asList(usersArray));
-                    
+
                     //remove header [USERS]
                     usersList.remove(0);
-                    
+
                     ApplicationScopeBean.usersList.addAll(usersList);
                     System.out.println("load Users = " + ApplicationScopeBean.usersList);
                 }
-                
-                
+
+
             }
-            
-            
+
+
         } catch (Exception e)
         {
             e.printStackTrace();
         }
-            
+
     }
-    
+
     public void updateOldRecord()
     {
         int counter = 0;
@@ -275,7 +275,7 @@ public class OpenLisStartApp extends Application
             {
                 continue;
             }
-            
+
             counter++;
             List<AstmMessage> astmMessagesList = Store.get().testOrderService().getAstmMessages(testOrderImpl.getOrderCode());
             for (AstmMessage astmMessage : astmMessagesList)
@@ -283,9 +283,9 @@ public class OpenLisStartApp extends Application
                 astmMessage.setStatusCode(StatusCode.DISPATCHED);
                 Store.get().crudService().save(astmMessage);
             }
-            
+
             System.out.println(counter + "   .. out of " + testOrderImplsList.size());
         }
-        
+
     }
 }

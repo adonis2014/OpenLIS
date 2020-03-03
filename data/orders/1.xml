@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testOrder orderId="1" patientName="1" patientId="1" facilityId="1" facilityName="1">
+    <tests>
+        <test testId="1" specimenId="1" testName="1" conceptCode="1" validatedBy="User 3" validatedOn="2024-01-17T14:32:51.548+08:00">
+            <elements/>
+            <analyserId>CP23</analyserId>
+        </test>
+    </tests>
+</testOrder>

@@ -61,12 +61,12 @@ public class JmsIntegrator implements MessageListener{
     private static final String DEFAULT_USERNAME = "frontend";
     private static final String DEFAULT_PASSWORD = "frontendB055#";
     private static final String INITIAL_CONTEXT_FACTORY = "org.jboss.naming.remote.client.InitialContextFactory";
-    private static final String PROVIDER_URL = "remote://192.168.2.18:4547";
+    private static final String PROVIDER_URL = "jms://192.168.2.18:4547";
 //    private static final String PROVIDER_URL = "remote://192.168.2.18:5545";
 //    private static final String PROVIDER_URL = "remote://localhost:4447";
 
     public DataCallback testOrdersCallback;
-    
+
     ConnectionFactory connectionFactory = null;
         Connection connection = null;
         Session session = null;
@@ -76,13 +76,13 @@ public class JmsIntegrator implements MessageListener{
         Destination LabTestResults_destination = null;
         TextMessage message = null;
         Context context = null;
-    
-    public boolean initJmsConn() 
+
+    public boolean initJmsConn()
     {
 
         printClassPath();
-        
-        
+
+
 
         try {
             // Set up the context for the JNDI lookup
@@ -103,7 +103,7 @@ public class JmsIntegrator implements MessageListener{
             log.info("Attempting to acquire destination \"" + destinationString + "\"");
             LabTestOrders_destination = (Destination) context.lookup(destinationString);
             log.info("Found destination \"" + destinationString + "\" in JNDI");
-            
+
             LabTestResults_destination = (Destination) context.lookup(LabTestResults_queue);
 
             // Create the JMS connection, session, producer, and consumer
@@ -111,13 +111,13 @@ public class JmsIntegrator implements MessageListener{
             session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
             producer = session.createProducer(LabTestResults_destination);
             consumer = session.createConsumer(LabTestOrders_destination);
-            
+
             consumer.setMessageListener(this);
-            
+
             connection.start();
-            
+
             System.out.println("JMS Connection Started");
-            
+
             return true;
 
 //            int count = Integer.parseInt(System.getProperty("message.count", DEFAULT_MESSAGE_COUNT));
@@ -136,14 +136,14 @@ public class JmsIntegrator implements MessageListener{
 //                message = (TextMessage) consumer.receive(5000);
 //                log.info("Received message with content " + message.getText());
 //            }
-        } catch (Exception e) 
+        } catch (Exception e)
         {
             log.severe(e.getMessage());
-          
-        } 
-        
-        
-        
+
+        }
+
+
+
 //        finally {
 //            if (context != null) {
 //                context.close();
@@ -157,39 +157,39 @@ public class JmsIntegrator implements MessageListener{
 
         return false;
     }
-    
-    
+
+
     public boolean sendMessage(TestOrder testOrder)
     {
         try
         {
             if(testOrder == null)
             {
-                
+
                 System.out.println("returing from attempt to send null test order");
                 return false;
             }
             System.out.println("received message to send to jms queue");
-            
+
             ObjectMessage objectMessage = session.createObjectMessage();
             objectMessage.setObject(testOrder);
-            
+
             producer.send(objectMessage);
-            
+
             System.out.println("message sent + " + testOrder);
-            
+
             return true;
         } catch (Exception e)
         {
             e.printStackTrace();
         }
-        
+
         return false;
     }
-    
+
     public static void printClassPath()
     {
-        
+
         ClassLoader cl = ClassLoader.getSystemClassLoader();
         URL[] urls = ((URLClassLoader)cl).getURLs();
         System.out.println(urls);
@@ -202,7 +202,7 @@ public class JmsIntegrator implements MessageListener{
     public void onMessage(Message msg)
     {
         System.out.println("New Mesage Recieved .. " + msg);
-        
+
         if(testOrdersCallback != null)
         {
             testOrdersCallback.onData(msg);
@@ -213,14 +213,14 @@ public class JmsIntegrator implements MessageListener{
         }
     }
 
-    
+
     public void setTestOrdersCallback(DataCallback testOrdersCallback)
     {
         this.testOrdersCallback = testOrdersCallback;
     }
-    
-    
-    
+
+
+
     public void sendJmsMessage(LabMessage labMessage)
     {
 
@@ -236,15 +236,15 @@ public class JmsIntegrator implements MessageListener{
         {
             return;
         }
-        
-        
+
+
         for (TestRequest request : testOrder.getRequests())
         {
             request.setAnalyserId("CP23");
 //            request.setAnalyserId("Vistros 5,1 FS");
         }
-        
-        
+
+
         //temporary check of validation
         boolean hasValidation = true;
         for (TestRequest request : testOrder.getRequests())
@@ -254,7 +254,7 @@ public class JmsIntegrator implements MessageListener{
                 hasValidation = false;
             }
         }
-        
+
         if (hasValidation == false)
         {
             Alert alert = new Alert(AlertType.ERROR);
@@ -266,10 +266,10 @@ public class JmsIntegrator implements MessageListener{
 
             return;
         }
-        
-        
-        
-        
+
+
+
+
 //        testOrder.set
         boolean sentToCarewex = sendMessage(testOrder);
 
@@ -284,25 +284,25 @@ public class JmsIntegrator implements MessageListener{
                 testRequestImpl.setValidatedBy(labMessage.getValidatorName());
                 Store.get().crudService().save(testRequestImpl);
             }
-            
+
             if (sentToCarewex)
             {
                 testOrderImpl.setOrderStatus(StatusCode.DISPATCHED);
-                
+
                 List<AstmMessage> astmMessagesList = Store.get().testOrderService().getAstmMessages(labMessage.getSampleId());
                 for (AstmMessage astmMessage : astmMessagesList)
                 {
                     astmMessage.setStatusCode(StatusCode.DISPATCHED);
                     Store.get().crudService().save(astmMessage);
                 }
-                
+
             } else
             {
                 testOrderImpl.setOrderStatus(StatusCode.DISPATCH_FAILD);
             }
-            
-            
-            
+
+
+
             LogManager.instance().saveTestOrder(testOrder);
             System.out.println(testOrderImpl + " ---  updated to -- " + testOrderImpl.getOrderStatus());
             Store.get().crudService().save(testOrderImpl);
@@ -314,6 +314,6 @@ public class JmsIntegrator implements MessageListener{
 
     }
 
-    
+
 }
 
